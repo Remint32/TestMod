@@ -1,0 +1,7 @@
+{
+  "name": "test",
+  "author": "Anuke",
+  "main": "testmod.TestMainClass",
+  "description": "A simple mod. Newlines and[accent] color codes[] should work in the description. Does this description go off-screen at all? It really shouldn't.",
+  "version": 1.0
+}

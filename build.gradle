@@ -1,0 +1,18 @@
+apply plugin: "java"
+
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories{
+    mavenCentral()
+    maven{ url 'https://jitpack.io' }
+}
+
+dependencies{
+    compileOnly "com.github.Anuken.Arc:arc-core:-SNAPSHOT"
+    compileOnly "com.github.Anuken.Mindustry:core:jar-mods-experiment-SNAPSHOT"
+}
+
+//to compile a dexed jar file:
+//./d8 --output output.jar --classpath ~/Projects/testmod/libs/core-release.jar ~/Projects/testmod/build/libs/testmod-1.0.jar
