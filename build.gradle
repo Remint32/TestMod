@@ -11,7 +11,7 @@ repositories{
 
 dependencies{
     compileOnly "com.github.Anuken.Arc:arc-core:-SNAPSHOT"
-    compileOnly "com.github.Anuken.Mindustry:core:jar-mods-experiment-SNAPSHOT"
+    compileOnly "com.github.Anuken.Mindustry:core:-SNAPSHOT"
 }
 
 //to compile a dexed jar file:
