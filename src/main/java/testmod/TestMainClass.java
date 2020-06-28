@@ -1,11 +1,10 @@
 package testmod;
 
-
-import io.anuke.arc.util.*;
-import io.anuke.mindustry.content.*;
-import io.anuke.mindustry.mod.*;
-import io.anuke.mindustry.type.*;
-import io.anuke.mindustry.world.*;
+import arc.util.*;
+import mindustry.content.*;
+import mindustry.mod.*;
+import mindustry.type.*;
+import mindustry.world.*;
 
 public class TestMainClass extends Mod{
     public Block testBlock;
