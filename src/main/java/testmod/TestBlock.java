@@ -1,8 +1,8 @@
 package testmod;
 
-import io.anuke.arc.graphics.g2d.*;
-import io.anuke.mindustry.*;
-import io.anuke.mindustry.world.*;
+import arc.graphics.g2d.*;
+import mindustry.*;
+import mindustry.world.*;
 
 public class TestBlock extends Block{
 
