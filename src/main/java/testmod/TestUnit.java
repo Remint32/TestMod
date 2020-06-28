@@ -1,8 +1,8 @@
 package testmod;
 
 
-import io.anuke.arc.graphics.g2d.*;
-import io.anuke.mindustry.entities.type.base.*;
+import arc.graphics.g2d.*;
+import mindustry.entities.type.base.*;
 
 public class TestUnit extends FlyingUnit{
 
