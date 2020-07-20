@@ -1,22 +1,21 @@
 package testmod;
 
-
-import io.anuke.arc.util.*;
-import io.anuke.mindustry.content.*;
-import io.anuke.mindustry.mod.*;
-import io.anuke.mindustry.type.*;
-import io.anuke.mindustry.world.*;
+import arc.util.*;
+import mindustry.content.*;
+import mindustry.mod.*;
+import mindustry.type.*;
+import mindustry.world.*;
 
 public class TestMainClass extends Mod{
-    public Block testBlock;
-    public UnitType testUnit;
+    //public Block testBlock;
+    //public UnitType testUnit;
 
     //called at game initialization, load content here
     @Override
     public void init(){
         Log.info("testmod::init() has been called.");
 
-        testBlock = new TestBlock("test:testblock"){{
+        /*testBlock = new TestBlock("test:testblock"){{
             requirements(Category.distribution, ItemStack.with(Items.titanium, 100));
 
             solid = true;
@@ -40,7 +39,7 @@ public class TestMainClass extends Mod{
                 ejectEffect = Fx.shellEjectSmall;
                 bullet = Bullets.lancerLaser;
             }};
-        }};
+        }};*/
     }
 
     //called after all mods have been loaded
